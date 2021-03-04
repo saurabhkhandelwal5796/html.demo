@@ -1,0 +1,75 @@
+#html-demo {
+            color:yellow
+
+            }
+            .green-div{
+                color:yellow
+            }
+
+            #root { height:200px;
+                     width:200px;
+                        border:1px solid #343434}
+
+            #parent { 
+                height:150;
+                width:150px;
+                border:1px solid #343434;
+                position:relative           
+                    }
+
+            #child { height:100px;
+            width:100px;
+        border:1px solid#343434}
+
+
+
+        #cssfixedprop {
+            width:100px;
+            height:100px;
+            background-color: yellow;
+           position: fixed;
+            top:0px;
+            right:0px;
+       
+           
+      }
+
+        #cssrelativeprop {
+            width:100px;
+            height:100px;
+            background-color: blue;
+            position:relative;
+            top:0px;
+            left:100px;
+        }
+
+        #cssabsoluteprop {
+            height:100px;
+            width:100px;
+            background-color: green;
+            position: absolute;
+            top:30px;
+            left:10px;
+            
+        }
+        #cssstickyprop {
+            height:100px;
+            width:100px;
+            background-color: blue;
+            position: sticky;
+            top:10px;
+            left:20px;
+            
+        }
+        #left {
+            height:100px;
+            width:100px;
+            background-color: rgb(255, 0, 179);
+           float:left;
+                              }
+        #right {
+            height:100px;
+            width:100px;
+            background-color: rgb(255, 0, 179);
+           float:right;
+                              }
