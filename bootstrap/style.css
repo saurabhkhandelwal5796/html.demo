@@ -1,0 +1,70 @@
+p {
+    font-size: 30px;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:576px)
+
+{
+    .customize-card-text {
+        font-size:50px;
+    }
+    
+    .custom-margin {
+        margin-bottom:100px
+    }
+
+}
+  dhyan se dekh uppar bhee yahe media query likhi hai, customize-card-text, purr upar toh condition hai 320 to 576 , lekin humm chagte hai 
+  ki print toh hamesha blue rahe toh iss media query ko use kara but out of the that condition. 
+    @media only print {
+        .customize-card-text {
+             color:blue;
+        }
+    }
+
+
+
+
+
+
+
+@media only screen and (max-width:576px)
+{
+p {
+    font-size:40px;
+}
+}
+
+
+@media only screen and (min-width:576px) and (max-width:768px)
+
+{
+p {
+    font-size:50px;
+}
+}
+
+
+
+@media only screen and (min-width:768px) and (max-width:992px)
+{
+p {
+    font-size:60px;
+}
+}
+@media only screen and (min-width:992px) and (max-width:1200px)
+
+{
+    p {
+    font-size:70px;
+}
+}
+@media only screen and (min-width:1200)
+
+{
+p {
+    font-size:80px;
+}
+} 
+

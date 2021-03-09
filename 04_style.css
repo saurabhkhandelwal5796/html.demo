@@ -73,3 +73,103 @@
             background-color: rgb(255, 0, 179);
            float:right;
                               }
+
+        #list {
+            list-style-type:decimal;
+            list-style-position:inside;
+            list-style-image:url("arrow.png")
+            list-style:upper-alpha inside url("arrow_right.png")         
+        }
+        /* p:hover{font-size: 50px;} */
+        a:link{
+            color:red;
+            font-size: 20px;
+        }
+        a:visited{
+            color:green;
+            font-size: 30px;
+        }
+        a:hover{
+            color:blue;
+            font-size: 40px;
+        }
+        a:active{
+            color:black;
+            font-size: 50px;
+        }
+        
+        
+    div#parentchild > p :first-child{
+        color:red;
+    }
+    /* div#parentchild span{
+        color:red;
+    }
+    div#parentchild p{
+        color:red;
+    }
+    div#parentchild :first-child{
+        color:red;
+    }
+    div#parentchild :last-child{
+        color:red;
+    }
+    div#parentchild >:first-child{
+        color:red;
+    }
+    div#parentchild >:last-child{
+        color:red;
+    } */
+
+    #text-shadow {
+        text-shadow: 1px 2px 7px red;
+    }
+    #box-shadow {
+        box-shadow: 4px 4px 10px 2px red;
+    }
+    #cssgradient {
+        background-image: linear-gradient(78deg,violet,indigo,blue,green,yellow,orange,red);
+        box-shadow: 3px 4px 4px 1px yellow ;
+    }
+    #cssradialgradient {
+        background-image:radial-gradient(circle,red,yellow,green)
+    }
+
+    #csstransition {
+        height:100px;
+        width:100px;
+        margin:50px;
+        background-color: red;
+        transition-delay: 1s;
+        transition-timing-function: In · Back;
+        transition-duration: 1000ms ;
+        transition-property: background-color width ;
+    }
+    
+    #csstransition:hover {
+        background-color: green;
+        width:200px;
+        height:300px
+        
+    }
+    #box {
+        height:100px;
+        width:100px;
+        background-color: red;
+        margin:50px;
+        border-top-right-radius:10px;
+       transition:transform 1s,background-color 1s;
+    }
+
+    #box:hover
+     {
+         /* transform: scale(2,3); */
+         /* transform:rotate(45deg); */
+        /* background-color: green; */
+        /* transform:translate(100px,20px) rotate(45deg) skew(75deg,75deg); */
+        transform:rotatex(60deg);
+        }
+
+    .bootstrap-button{
+        background-color: red;
+    }
